@@ -11,6 +11,8 @@
 		C20D77F024B665D7002E7AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77EF24B665D7002E7AEA /* ContentView.swift */; };
 		C20D77F224B665D8002E7AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20D77F124B665D8002E7AEA /* Assets.xcassets */; };
 		C20D77F524B665D8002E7AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */; };
+		C60E3EE02EAB8610006B97BA /* Circleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E3EDF2EAB8610006B97BA /* Circleimage.swift */; };
+		C60E3EE22EAB8899006B97BA /* Mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E3EE12EAB8898006B97BA /* Mapview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C20D77F124B665D8002E7AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2AC4E8924DE1856005E019B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C60E3EDF2EAB8610006B97BA /* Circleimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Circleimage.swift; path = /Users/zafraana/Dev/Circleimage.swift; sourceTree = "<absolute>"; };
+		C60E3EE12EAB8898006B97BA /* Mapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mapview.swift; path = /Users/zafraana/Dev/Mapview.swift; sourceTree = "<absolute>"; };
 		D37C64DBD0434958E334DB7A /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		EAFCC7FAFBD54E954DE59292 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +71,8 @@
 			children = (
 				C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */,
 				C20D77EF24B665D7002E7AEA /* ContentView.swift */,
+				C60E3EDF2EAB8610006B97BA /* Circleimage.swift */,
+				C60E3EE12EAB8898006B97BA /* Mapview.swift */,
 				C20D77F124B665D8002E7AEA /* Assets.xcassets */,
 				C20D77F324B665D8002E7AEA /* Preview Content */,
 			);
@@ -160,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60E3EE02EAB8610006B97BA /* Circleimage.swift in Sources */,
 				C20D77F024B665D7002E7AEA /* ContentView.swift in Sources */,
+				C60E3EE22EAB8899006B97BA /* Mapview.swift in Sources */,
 				C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
