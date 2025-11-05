@@ -11,8 +11,14 @@
 		C20D77F024B665D7002E7AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77EF24B665D7002E7AEA /* ContentView.swift */; };
 		C20D77F224B665D8002E7AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20D77F124B665D8002E7AEA /* Assets.xcassets */; };
 		C20D77F524B665D8002E7AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */; };
-		C60E3EE02EAB8610006B97BA /* Circleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E3EDF2EAB8610006B97BA /* Circleimage.swift */; };
-		C60E3EE22EAB8899006B97BA /* Mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E3EE12EAB8898006B97BA /* Mapview.swift */; };
+		C60E3EE02EAB8610006B97BA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E3EDF2EAB8610006B97BA /* CircleImage.swift */; };
+		C60E3EE22EAB8899006B97BA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E3EE12EAB8898006B97BA /* MapView.swift */; };
+		C60E40B42EAF1709006B97BA /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E40B32EAF1709006B97BA /* Landmark.swift */; };
+		C60E40BA2EAF1C67006B97BA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E40B92EAF1C67006B97BA /* ModelData.swift */; };
+		C60E40BC2EAF1CCF006B97BA /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E40BB2EAF1CCF006B97BA /* LandmarkRow.swift */; };
+		C60E40C02EAF2610006B97BA /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = C60E40BE2EAF2610006B97BA /* landmarkData.json */; };
+		C60E40C32EAF27C1006B97BA /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E40C22EAF27C1006B97BA /* LandmarkList.swift */; };
+		C60E40C52EAF2956006B97BA /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E40C42EAF2956006B97BA /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +28,14 @@
 		C20D77F124B665D8002E7AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2AC4E8924DE1856005E019B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C60E3EDF2EAB8610006B97BA /* Circleimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Circleimage.swift; path = /Users/zafraana/Dev/Circleimage.swift; sourceTree = "<absolute>"; };
-		C60E3EE12EAB8898006B97BA /* Mapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mapview.swift; path = /Users/zafraana/Dev/Mapview.swift; sourceTree = "<absolute>"; };
+		C60E3EDF2EAB8610006B97BA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = /Users/zafraana/Dev/CircleImage.swift; sourceTree = "<absolute>"; };
+		C60E3EE12EAB8898006B97BA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = /Users/zafraana/Dev/MapView.swift; sourceTree = "<absolute>"; };
+		C60E40B32EAF1709006B97BA /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Landmark.swift; path = ../../Landmark.swift; sourceTree = SOURCE_ROOT; };
+		C60E40B92EAF1C67006B97BA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelData.swift; path = ../../ModelData.swift; sourceTree = SOURCE_ROOT; };
+		C60E40BB2EAF1CCF006B97BA /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		C60E40BE2EAF2610006B97BA /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		C60E40C22EAF27C1006B97BA /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkList.swift; path = ../../LandmarkList.swift; sourceTree = SOURCE_ROOT; };
+		C60E40C42EAF2956006B97BA /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkDetail.swift; path = ../../LandmarkDetail.swift; sourceTree = SOURCE_ROOT; };
 		D37C64DBD0434958E334DB7A /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		EAFCC7FAFBD54E954DE59292 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,9 +83,15 @@
 			children = (
 				C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */,
 				C20D77EF24B665D7002E7AEA /* ContentView.swift */,
-				C60E3EDF2EAB8610006B97BA /* Circleimage.swift */,
-				C60E3EE12EAB8898006B97BA /* Mapview.swift */,
+				C60E3EDF2EAB8610006B97BA /* CircleImage.swift */,
+				C60E3EE12EAB8898006B97BA /* MapView.swift */,
+				C60E40B32EAF1709006B97BA /* Landmark.swift */,
+				C60E40B92EAF1C67006B97BA /* ModelData.swift */,
+				C60E40BB2EAF1CCF006B97BA /* LandmarkRow.swift */,
+				C60E40C22EAF27C1006B97BA /* LandmarkList.swift */,
+				C60E40C42EAF2956006B97BA /* LandmarkDetail.swift */,
 				C20D77F124B665D8002E7AEA /* Assets.xcassets */,
+				C60E40BF2EAF2610006B97BA /* Resources 7 */,
 				C20D77F324B665D8002E7AEA /* Preview Content */,
 			);
 			path = Landmarks;
@@ -85,6 +103,14 @@
 				C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C60E40BF2EAF2610006B97BA /* Resources 7 */ = {
+			isa = PBXGroup;
+			children = (
+				C60E40BE2EAF2610006B97BA /* landmarkData.json */,
+			);
+			path = "Resources 7";
 			sourceTree = "<group>";
 		};
 		EE393712D7B336982239DD17 /* Configuration */ = {
@@ -123,7 +149,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1640;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					C20D77E924B665D7002E7AEA = {
@@ -155,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C20D77F524B665D8002E7AEA /* Preview Assets.xcassets in Resources */,
+				C60E40C02EAF2610006B97BA /* landmarkData.json in Resources */,
 				C20D77F224B665D8002E7AEA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,10 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C60E3EE02EAB8610006B97BA /* Circleimage.swift in Sources */,
+				C60E3EE02EAB8610006B97BA /* CircleImage.swift in Sources */,
 				C20D77F024B665D7002E7AEA /* ContentView.swift in Sources */,
-				C60E3EE22EAB8899006B97BA /* Mapview.swift in Sources */,
+				C60E3EE22EAB8899006B97BA /* MapView.swift in Sources */,
+				C60E40C32EAF27C1006B97BA /* LandmarkList.swift in Sources */,
+				C60E40C52EAF2956006B97BA /* LandmarkDetail.swift in Sources */,
 				C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */,
+				C60E40B42EAF1709006B97BA /* Landmark.swift in Sources */,
+				C60E40BC2EAF1CCF006B97BA /* LandmarkRow.swift in Sources */,
+				C60E40BA2EAF1C67006B97BA /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +246,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -276,6 +309,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
