@@ -1,18 +1,19 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-A view that presents a map.
-*/
+//
+//  MapViewswift.swift
+//  Landmarks
+//
+//  Created by AnaZafra on 2025/11/20.
+//  Copyright © 2025 Apple. All rights reserved.
+//
 
 import SwiftUI
 import MapKit
 
-struct MapView: View {
+struct MapViewswift: View {
     var body: some View {
         Map(initialPosition: .region(region))
     }
-
+    
     private var region: MKCoordinateRegion {
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868),
@@ -22,5 +23,5 @@ struct MapView: View {
 }
 
 #Preview {
-    MapView()
+    MapViewswift()
 }
