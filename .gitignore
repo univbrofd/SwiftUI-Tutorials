@@ -1,0 +1,13 @@
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+
+# Build products
+build/
+DerivedData/
+
+# Other
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
